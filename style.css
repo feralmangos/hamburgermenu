@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.menu-icon {
+    display: flex;
+    display: inline-block;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.burger-icon {
+    display: block;
+}
+
+.close-icon {
+    display: none;
+}
+
+ul {
+    display: none;
+}
+
+input[type=checkbox]:checked~ul {
+    display: block
+}
+
+input:checked+label .close-icon {
+    display: block;
+}
+
+input:checked+label .burger-icon {
+    display: none;
+}
