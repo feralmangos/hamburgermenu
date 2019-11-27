@@ -1,2 +1,2 @@
 # hamburgermenu
-Responsive Menu with only css
+Hamburguer Menu with only css  
