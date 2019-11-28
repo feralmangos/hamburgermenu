@@ -34,6 +34,10 @@ a:visited {
     color: white;
 }
 
+a:link {
+    color: white;
+}
+
 .dropdown ul {
     display: none;
     padding-left: 0px;
@@ -89,4 +93,51 @@ h2 {
     text-align: center;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*
+h1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}*/
+
+.dropdown ul {
+    animation-duration: 2s;
+    animation-name: slide;
+}
+
+@keyframes slide {
+    from {
+        margin-left: -200px;
+    }
+    to {
+        margin-left: 0px;
+    }
+}
+
+h2,
+h1 {
+    animation-duration: 3s;
+    animation-name: slide2;
+}
+
+@keyframes slide2 {
+    from {
+        color: aliceblue;
+    }
+    to {
+        color: black;
+    }
 }
